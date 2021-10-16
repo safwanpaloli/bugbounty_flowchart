@@ -3,6 +3,7 @@ First know about the target.
 whois 
 dig
 wig 
+theHarvester -d 
 shodan https://www.shodan.io/
 
 collect all subdomains using multiple subdomains.
@@ -18,8 +19,19 @@ Download : https://github.com/tomnomnom/assetfinder
 assetfinder [--subs-only] <domain>
 
 amass
+usage : amass -d domain.com
 
 gobuster brute force
 
 gobuster dns example.com -w /usr/share/wordlist/
 
+Sublist3r.
+usage : sublist3r.py -d securitytrails.com
+
+knockpy
+usage : knockpy wikipedia.com
+        knockpy domain.com -w wordlist.txt
+        
+DNSRecon
+
+usage : dnsrecon.py -d securitytrails.com
