@@ -1,0 +1,25 @@
+First know about the target.
+
+whois 
+dig
+wig 
+shodan https://www.shodan.io/
+
+collect all subdomains using multiple subdomains.
+
+https://www.virustotal.com/gui/ 
+
+dirsearch
+download in  https://github.com/maurosoria/dirsearch
+python3 dirsearch.py -u <URL> -e <EXTENSIONS>
+
+assetfinder 
+Download : https://github.com/tomnomnom/assetfinder
+assetfinder [--subs-only] <domain>
+
+amass
+
+gobuster brute force
+
+gobuster dns example.com -w /usr/share/wordlist/
+
