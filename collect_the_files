@@ -4,3 +4,13 @@ whatsweb https://domains-name.com
 
 gobuster dir -u https://domains-names.com/
 wfuzz -u https://domains-name.com/FUZZ -w /usr/share/wordlists/
+
+
+firstly find subdomains
+assetfinder --sub-dirs google.com | tee -a domains
+
+filter 80 443 ports domains | httprobe | tee -a 
+whatweb -i domain 
+meg -d 1000 / domain //It can be used to fetch many paths for many hosts; fetching one path for all hosts before moving on to the next path and repeating.
+waybackurl //fetch all urls // cmd : waybackurl domains.url | grep "=" | grep "pp" | egrep -iv ".(jpg|jpeg|gif|css|tif|tiff|png|ttf|woff|woff2|ico|pdf|svg|txt|js)"
+gau //get all url 
