@@ -1,0 +1,6 @@
+gau https://domain_name.com
+waybackurls https://domain-name.com
+whatsweb https://domains-name.com
+
+gobuster dir -u https://domains-names.com/
+wfuzz -u https://domains-name.com/FUZZ -w /usr/share/wordlists/
