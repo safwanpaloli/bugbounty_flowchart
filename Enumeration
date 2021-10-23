@@ -1,0 +1,6 @@
+nmap -sC -sV --scripts http* domain-name
+nmap -sC -sV --scripts vuln domain-name
+
+sqlmap -r sqlmap.req --level 5 --risk 3
+burpsuite
+
